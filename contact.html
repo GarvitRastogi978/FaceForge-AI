@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | FaceForge AI</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- NAV -->
+  <nav>
+    <div class="logo">FaceForge AI</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" style="text-align:center;">
+    <h1>Contact Us</h1>
+    <p>Have questions, suggestions, or collaboration ideas? We'd love to hear from you.</p>
+  </section>
+
+<!-- FORM -->
+<form class="contact-form"
+      action="https://api.web3forms.com/submit"
+      method="POST">
+
+  <!-- Web3Forms Access Key -->
+  <input type="hidden" name="access_key" value="">
+
+  <!-- Email Subject -->
+  <input type="hidden" name="subject" value="New Message from FaceForge AI">
+
+  <!-- Optional Redirect After Submit -->
+  <input type="hidden" name="redirect" value="https://yourdomain.com/thank-you.html">
+
+  <div class="form-group">
+    <label>Your Name</label>
+    <input type="text" name="name" placeholder="Enter your name" required>
+  </div>
+
+  <div class="form-group">
+    <label>Email Address</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+  </div>
+
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+  </div>
+
+  <!-- Honeypot Spam Protection -->
+  <input type="checkbox" name="botcheck" style="display:none;">
+
+  <button type="submit" class="btn btn-primary">Send Message</button>
+
+</form>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <h2 class="footer-logo">FaceForge AI</h2>
+      <p>Create stunning AI portraits, viral prompts, <br> and next-gen digital art tutorials.</p>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-use.html">Terms Of Use</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <!-- <div class="footer-col">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="#">Beginner Guide</a></li>
+        <li><a href="#">Advanced Techniques</a></li>
+        <li><a href="#">Ethical AI Practices</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div> -->
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <h3>Social</h3>
+      <ul>
+        <li><a href="https://instagram.com">Instagram</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 FaceForge AI • Built for AI Artists
+  </div>
+</footer>
+
+</body>
+</html>

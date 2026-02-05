@@ -1,0 +1,273 @@
+/* --- BLOG DETAIL PAGE STYLING --- */
+
+/* 1. Limit reading width for better UX */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 40px 5%;
+}
+
+/* 2. Back Button (First Link) */
+.container > a:first-child {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 30px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-smooth);
+}
+
+.container > a:first-child:hover {
+  color: var(--primary-color);
+  transform: translateX(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 3. Main Title (H1) */
+.container h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* 4. Metadata (Date & Read Time) - Styled as "Chips" */
+/* Targets the first two paragraphs specifically */
+.container > p:nth-of-type(1),
+.container > p:nth-of-type(2) {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: rgba(95, 111, 255, 0.08); /* Light primary tint */
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* 5. Subheadings (H2) */
+.container h2 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: var(--text-main);
+  position: relative;
+  padding-left: 15px;
+}
+
+/* Add a decorative line next to H2 */
+.container h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  bottom: 5px;
+  width: 4px;
+  background: var(--gradient-brand);
+  border-radius: 4px;
+}
+
+/* 6. Prompt Text (The p tag immediately following an h2) */
+.container h2 + p {
+  font-family: 'Courier New', monospace; /* distinct font for code/prompts */
+  background: #f6f6f6;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 4px solid var(--secondary-color);
+  color: #0f0f0f;
+  font-size: 1rem;
+  box-shadow: var(--shadow-sm);
+  line-height: 1.6;
+}
+
+/* 7. Images */
+/* --- 7. ADVANCED IMAGE EFFECTS --- */
+
+.img-wrapper {
+  position: relative;
+  margin: 30px 0;
+  border-radius: 20px;
+  overflow: hidden; /* Clips the shine to the border-radius */
+  
+  /* Glassmorphism Border */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  
+  /* Initial Glow */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  filter: saturate(1.1); /* Makes colors pop */
+}
+
+/* --- THE SHINE EFFECT (The light sweep) --- */
+.img-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(247, 247, 247, 0.262),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: none; /* Reset for hover */
+  z-index: 1;
+}
+
+/* --- THE GLOW OVERLAY (Color bleed) --- */
+.img-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center, 
+    rgba(95, 111, 255, 0.15) 0%, 
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+/* --- HOVER INTERACTIONS --- */
+.img-wrapper:hover {
+  transform: translateY(-8px) scale(1.01);
+  border-color: rgba(255, 255, 255, 0.5);
+  /* Intense neon glow on hover */
+  box-shadow: 0 20px 40px rgba(95, 111, 255, 0.25), 
+              0 0 20px rgba(255, 78, 205, 0.15);
+}
+
+.img-wrapper:hover img {
+  transform: scale(1.08); /* Slow zoom */
+}
+
+/* Trigger the light sweep on hover */
+.img-wrapper:hover::before {
+  left: 150%;
+  transition: left 0.8s ease-in-out;
+}
+
+.img-wrapper:hover::after {
+  opacity: 1;
+}
+
+/* ANY ANDROID DEVICE RESPONSIVENESS*/
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 5%;
+  }
+  
+  .hero {
+    padding: clamp(40px, 8vh, 80px) 5%;
+    margin: 20px auto 60px;
+  }
+  
+  .hero h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
+
+/* FOOTER STYLING FOR BLOG PAGES ONLY */
+/* Footer Base Styling */
+.site-footer {
+    background: linear-gradient(135deg, #1e1b4b, #312e81, #5b21b6);
+    color: #ffffff;
+    padding: 30px 0 10px 0; /* Reduced top/bottom padding */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+/* Container for alignment */
+.footer-grid {
+    max-width: 1000px; /* Limits width to look "thinner" and centered */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* Gives the logo/bio more space */
+    gap: 40px;
+    padding: 0 20px;
+}
+
+/* Column Content */
+.footer-col h2.footer-logo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-col p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Links List */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 6px; /* Tighter spacing between links */
+}
+
+.footer-col ul li a {
+    color: #bbbbbb;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+    color: #dbd9d9;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

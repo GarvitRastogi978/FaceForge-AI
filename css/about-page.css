@@ -1,0 +1,57 @@
+.about-page-content {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+    line-height: 1.6;  
+    color: #333;
+}
+.about-page-content h1 {  
+    font-size: 2.5em;  
+    margin-bottom: 20px;  
+    color: #9500ff;  
+}
+.about-page-content p {  
+    font-size: 1.2em;  
+    margin-bottom: 20px;  
+}
+.about-page-content a {  
+    color: #007BFF;  
+    text-decoration: none;  
+}
+.about-page-content a:hover {
+    text-decoration: underline;  
+}
+
+/* ANY ANDROID DEVICE RESPONSIVENESS*/
+@media (max-width: 600px) {
+    .about-page-content {
+        padding: 15px;
+    }
+    
+    .about-page-content h1 {
+        font-size: 2em;
+    }
+    
+    .about-page-content p {
+        font-size: 1em;
+    }
+}
+/* --- THE LIGHT SWEEP OVERLAY --- */
+.img-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -150%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(247, 247, 247, 0.262),
+    rgba(255, 255, 255, 0.4),
+    transparent);
+  transform: skewX(-20deg);
+    transition: none; /* Reset for hover */
+    z-index: 1;
+}
