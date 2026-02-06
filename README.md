@@ -7,7 +7,7 @@ Built using pure **HTML, CSS, and JavaScript**, designed to scale into a full AI
 ---
 
 ## 🚀 Live Website
-🔗 https://garvitrastogi.github.io/faceforge-ai
+🔗 [https://garvitrastogi.github.io/faceforge-ai](https://garvitrastogi978.github.io/FaceForge-AI/)
 
 ---
 
