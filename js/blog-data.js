@@ -10,5 +10,11 @@ const blogs = [
     date: "📅 May 02, 2026",
     image: "assets/blog-cover-image/cinematic-nature-image-wallpaper-prompts.jpg",
     file: "blogs/Cinematic-nature-wallpapers.html"
+  },
+  {
+    title: "🍌Nano Banana Split-Screen Woman Multiple Style Prompts",
+    date: "📅 May 04, 2026",
+    image: "assets/blog-cover-image/nano-banana-Split-Screen-Woman-Style-Prompts.png",
+    file: "blogs/Split-screen-Young-woman-prompts.html"
   }
 ];
