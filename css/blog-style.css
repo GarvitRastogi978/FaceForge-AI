@@ -271,3 +271,46 @@
         text-align: center;
     }
 }
+
+/* ................................ */
+/* ADVANCED GRADIENT BUTTON */
+.blog-btn {
+  /* Alignment: Centers the button (requires block display) */
+  display: block;
+  margin: 20px auto; 
+
+  /* Sizing & Typography */
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  /* Advanced Gradient: We use a larger background size for a "shimmer" effect */
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+  background-size: 200% auto;
+  
+  /* Borders & Glow */
+  border: 1px solid rgba(15, 15, 15, 0.2);
+  border-radius: 50px; /* Pill shape for a more modern look */
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions */
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Hover effect */
+.blog-btn:hover {
+  /* Shifts the gradient background position */
+  background-position: right center; 
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 0, 255, 0.3); /* Colored glow */
+}
+
+/* Active/Click effect */
+.blog-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
