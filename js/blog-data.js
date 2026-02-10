@@ -1,5 +1,17 @@
 const blogs = [
   {
+    title: "🏁 Nano Banana Pro AI Woman at F1 Event — Hyper-Realistic Luxury Scene Created with Google Gemini",
+    date: "📅 May 10, 2026",
+    image: "assets/blog-cover-image/nano-banana-pro-ai-woman-f1-gemini.png",
+    file: "blogs/nano-banana-pro-ai-woman-f1-gemini-prompts.html"
+  },
+  {
+    title: "🍌 Gemini Nano Banana Pro Prompts for Beautiful Women Photos",
+    date: "📅 May 09, 2026",
+    image: "assets/blog-cover-image/Gemini-Nano-Banana-Prompt-Beautiful-Women.png",
+    file: "blogs/Gemini Nano Banana Pro Prompts for Beautiful Women Photos.html"
+  },
+  {
     title: "🍌 Nano Banana Caricature Funny Woman Prompts",
     date: "📅 May 09, 2026",
     image: "assets/blog-cover-image/caricature-funny-woman.png",
