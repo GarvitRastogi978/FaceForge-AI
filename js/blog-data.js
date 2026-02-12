@@ -1,5 +1,11 @@
 const blogs = [
   {
+    title: "Gemini Prompts For Men Photo Aesthetic",
+    date: "📅 Feb 12, 2026",
+    image: "assets/blog-cover-image/Gemini-Prompts-For-Men-Photo-Aesthetic.jpg",
+    file: "blogs/Gemini-Prompts-For-Men-Photo-Aesthetic.html"
+  },
+  {
     title: "Nano Banana Pro Prompt for Google Gemini AI: Realistic High-Resolution Women Biker Portrait",
     date: "📅 Feb 11, 2026",
     image: "assets/blog-cover-image/nano-banana-pro-woman-riding-bike-night.png",
