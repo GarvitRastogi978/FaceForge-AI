@@ -3,7 +3,7 @@ const blogs = [
     title: "A Man with a beard, illuminated by dramatic dual-colored lighting.",
     date: "📅 Feb 13, 2026",
     image: "assets/blog-cover-image/Man-dual-colored-lighting.jpg",
-    file: "blogs/Man-dual-colored-lighting.html"
+    file: "blogs/man-dual-light-portrait.html"
   },
   {
     title: "Gemini Prompts For Men Photo Aesthetic",
