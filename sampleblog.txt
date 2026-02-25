@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🍌 Nano Banana Caricature Funny Woman Prompts</title>
+<title>Happy Holi Ai Photo Editing Prompts 2026 [Google Gemini] For Boys</title>
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/blog-style.css">
 </head>
@@ -23,32 +23,29 @@
 
 <div class="container">
   <a href="../blog.html">← Back to Blog</a>
-  <h1>Nano Banana Caricature Funny Woman Prompts</h1>
-  <p>Posted On: 📅Feb 09, 2026</p>
-  <p>Reading Time: ⏱️11 minutes</p>
+  <h1>Happy Holi Ai Photo Editing Prompts 2026 [Google Gemini] For Boys</h1>
+  <p>Posted On: 📅Feb 25, 2026</p>
+  <p>Reading Time: ⏱️10 minutes</p>
 <br>
 <hr>
-    <p><strong>📌 How to use: Upload your man or woman reference images first, then paste any of the below prompt in Google Gemini AI using Nano Banana/Nano Banana Pro.</strong></p>
+    <p><strong>📌 How to use: Upload reference image first. ➜ Paste any of the below prompt in Google Gemini AI using Nano Banana/Nano Banana Pro. ➜ BOOM! Your Image is Ready.</strong></p>
 <hr>
-    <h2>1. Funny Caricature of me and my job</h2>
-  <div class="prompt-box">Create a caricature of me and my job based on everything you know about me.</div>
-  <div class="img-wrapper"><img src="../assets/all blogs images/Caricature-funny-woman-prompts/1.png" alt="image1"></div>
+  <h2>PROMPT 1</h2>
+  <div class="prompt-box"></div>
+  <div class="img-wrapper"><img src="../assets/all blogs images/HOLI 2026 PROMPT FOR BOYS/1.png" alt="image1"></div>
 
-  <h2>2. About me and my job</h2>
-  <div class="prompt-box">Create a caricature of me and my job based on everything you know about me.</div>
-  <div class="img-wrapper"><img src="../assets/all blogs images/Caricature-funny-woman-prompts/2.png" alt="image2"></div>
+  <h2>PROMPT 2</h2>
+  <div class="prompt-box"></div>
+  <div class="img-wrapper"><img src="../assets/all blogs images/HOLI 2026 PROMPT FOR BOYS/2.png" alt="image2"></div>
 
-  <h2>3. In Coffee Shop</h2>
-  <div class="prompt-box">Create a caricature of me having a coffee in starbucks coffee shop.</div>
-  <div class="img-wrapper"><img src="../assets/all blogs images/Caricature-funny-woman-prompts/3.png" alt="image3"></div>
+  <h2>PROMPT 3</h2>
+  <div class="prompt-box"></div>
+  <div class="img-wrapper"><img src="../assets/all blogs images/HOLI 2026 PROMPT FOR BOYS/3.png" alt="image3"></div>
 
-  <h2>4. Walking on street</h2>
-  <div class="prompt-box">Create a caricature of me walking on the street.</div>
-  <div class="img-wrapper"><img src="../assets/all blogs images/Caricature-funny-woman-prompts/4.png" alt="image4"></div>
+  <h2>PROMPT 4</h2>
+  <div class="prompt-box"></div>
+  <div class="img-wrapper"><img src="../assets/all blogs images/HOLI 2026 PROMPT FOR BOYS/4.png" alt="image4"></div>
 
-  <h2>5. Laughing with others</h2>
-  <div class="prompt-box">Create a caricature of me and other real boys and girls laughing all together.</div>
-  <div class="img-wrapper"><img src="../assets/all blogs images/Caricature-funny-woman-prompts/5.png" alt="image5"></div>
 
   <!-- <h2></h2>
   <div class="prompt-box"></div>
@@ -60,6 +57,16 @@
 <!-- GO TO READ MORE BLOGS BUTTON -->
 <a href="../blog.html">
   <button class="blog-btn">More Blogs</button>
+</a>
+
+<!-- CREATE YOUR IMAGE WITH GEMINI -->
+ <a href="https://gemini.google.com/">
+  <button class="blog-btn">Create Your Image with Gemini</button>
+</a>
+
+<!-- CREATE YOUR IMAGE WITH CHATGPT -->
+ <a href="https://chatgpt.com">
+  <button class="blog-btn">Create Your Image with ChatGPT</button>
 </a>
 
 <!-- FOOTER -->

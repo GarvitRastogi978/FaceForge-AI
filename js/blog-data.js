@@ -1,5 +1,23 @@
 const blogs = [
   {
+    title: "Happy Holi Ai Photo Editing Prompts 2026 [Google Gemini] For Girls",
+    date: "📅 Feb 25, 2026",
+    image: "assets/blog-cover-image/HOLI GIRL.png",
+    file: "blogs/Nano Banana Holi Prompt Girls.html"
+  },
+  {
+    title: "Happy Holi Ai Photo Editing Prompts 2026 [Google Gemini] For Couples",
+    date: "📅 Feb 25, 2026",
+    image: "assets/blog-cover-image/HOLI COUPLE.png",
+    file: "blogs/Nano Banana Holi Prompt couple.html"
+  },
+  {
+    title: "Happy Holi Ai Photo Editing Prompts 2026 [Google Gemini] For Boys",
+    date: "📅 Feb 25, 2026",
+    image: "assets/blog-cover-image/HOLI BOY.png",
+    file: "blogs/Nano Banana Holi Prompt Boys.html"
+  },
+  {
     title: "Gemini Nano Banana Pro Prompts for Women",
     date: "📅 Feb 25, 2026",
     image: "assets/blog-cover-image/Nano Banana Prompts POST2.png",
