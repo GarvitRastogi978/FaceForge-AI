@@ -1,5 +1,11 @@
 const blogs = [
   {
+    title: "Gemini Nano Banana Pro Prompts for Women",
+    date: "📅 Feb 25, 2026",
+    image: "assets/blog-cover-image/Nano Banana Prompts POST2.png",
+    file: "blogs/Nano Banana Prompts POST2.html"
+  },
+  {
     title: "A Man with a beard, illuminated by dramatic dual-colored lighting.",
     date: "📅 Feb 13, 2026",
     image: "assets/blog-cover-image/Man-dual-colored-lighting.jpg",
